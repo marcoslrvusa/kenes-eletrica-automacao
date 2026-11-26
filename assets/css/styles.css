@@ -610,9 +610,11 @@ strong {
 }
 
 .brand__mark {
-  width: 43px;
-  height: 43px;
+  display: block;
+  width: 56px;
+  height: 42px;
   flex: 0 0 auto;
+  border-radius: 10px;
 }
 
 .brand__text {
@@ -2950,6 +2952,21 @@ button.link-arrow {
   color: #8e9aab;
 }
 
+.footer__logo {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+}
+
+.footer__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  filter: brightness(1.12) saturate(1.05);
+}
+
 .footer__social {
   display: flex;
   gap: 8px;
@@ -4388,8 +4405,8 @@ button.link-arrow {
   }
 
   .brand__mark {
-    width: 38px;
-    height: 38px;
+    width: 48px;
+    height: 36px;
   }
 
   .brand__name {
